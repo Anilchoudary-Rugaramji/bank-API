@@ -3,6 +3,7 @@ import joblib
 import pandas as pd
 import logging
 import os
+from flask_cors import CORS
 
 # Configure logging
 logging.basicConfig(filename="api.log", level=logging.INFO,
@@ -17,6 +18,7 @@ model = joblib.load(model_path)
 
 # Initialize Flask app
 app = Flask(__name__)
+CORS(app)
 
 
 @app.route("/predict", methods=["POST"])

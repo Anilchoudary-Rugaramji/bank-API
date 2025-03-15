@@ -38,8 +38,8 @@ V27 = st.number_input("V27", value=0.0)
 V28 = st.number_input("V28", value=0.0)
 Amount = st.number_input("Transaction Amount", value=0.0)
 
-# API URL (Replace this with your deployed API URL)
-API_URL = "https://fraud-detection-api.onrender.com/predict"
+# API URL (Replace with your Flask API URL after deploying on Render)
+API_URL = "https://your-flask-api-url.onrender.com/predict"
 
 # Button to predict fraud
 if st.button("Predict Fraud"):
@@ -52,8 +52,8 @@ if st.button("Predict Fraud"):
         "V26": V26, "V27": V27, "V28": V28, "Amount": Amount
     }
 
-    # Send request to API
-    response = requests.post("http://127.0.0.1:5000/predict", json=data)
+    # Send request to Flask API
+    response = requests.post(API_URL, json=data)
 
     # Display result
     if response.status_code == 200:
