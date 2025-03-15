@@ -39,7 +39,7 @@ V28 = st.number_input("V28", value=0.0)
 Amount = st.number_input("Transaction Amount", value=0.0)
 
 # API URL (Replace with your Flask API URL after deploying on Render)
-API_URL = "https://your-flask-api-url.onrender.com/predict"
+API_URL = "https://bank-api-47ai.onrender.com/predict"
 
 # Button to predict fraud
 if st.button("Predict Fraud"):
