@@ -1,0 +1,81 @@
+2025-03-15 15:24:29,583 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-15 15:24:29,583 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 15:24:29,604 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-15 15:24:31,539 - WARNING -  * Debugger is active!
+2025-03-15 15:24:31,547 - INFO -  * Debugger PIN: 127-933-181
+2025-03-15 15:24:48,129 - INFO - 127.0.0.1 - - [15/Mar/2025 15:24:48] "[33mPOST /predict%0A HTTP/1.1[0m" 404 -
+2025-03-15 15:25:09,827 - INFO - 127.0.0.1 - - [15/Mar/2025 15:25:09] "[33mPOST /predict%0A%0A HTTP/1.1[0m" 404 -
+2025-03-15 15:25:15,731 - ERROR - Error: feature_names mismatch: ['V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'V10', 'V11', 'V12', 'V13', 'V14', 'V15', 'V16', 'V17', 'V18', 'V19', 'V20', 'V21', 'V22', 'V23', 'V24', 'V25', 'V26', 'V27', 'V28', 'Amount'] ['V1', 'V2', 'V3', 'Amount']
+expected V21, V23, V24, V25, V18, V9, V5, V13, V8, V7, V14, V16, V6, V11, V27, V20, V15, V10, V22, V26, V4, V19, V12, V17, V28 in input data
+2025-03-15 15:25:15,731 - INFO - 127.0.0.1 - - [15/Mar/2025 15:25:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-15 15:25:28,981 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-15 15:25:28,981 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 15:25:29,008 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-15 15:25:31,204 - WARNING -  * Debugger is active!
+2025-03-15 15:25:31,213 - INFO -  * Debugger PIN: 127-933-181
+2025-03-15 15:26:30,844 - INFO - Prediction successful: 0
+2025-03-15 15:26:30,845 - INFO - 127.0.0.1 - - [15/Mar/2025 15:26:30] "POST /predict HTTP/1.1" 200 -
+2025-03-15 15:28:35,912 - INFO - 127.0.0.1 - - [15/Mar/2025 15:28:35] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-03-15 15:28:44,214 - INFO - Prediction successful: 0
+2025-03-15 15:28:44,215 - INFO - 127.0.0.1 - - [15/Mar/2025 15:28:44] "POST /predict HTTP/1.1" 200 -
+2025-03-15 15:28:52,523 - INFO - Prediction successful: 0
+2025-03-15 15:28:52,524 - INFO - 127.0.0.1 - - [15/Mar/2025 15:28:52] "POST /predict HTTP/1.1" 200 -
+2025-03-15 15:29:32,357 - INFO - Prediction successful: 0
+2025-03-15 15:29:32,358 - INFO - 127.0.0.1 - - [15/Mar/2025 15:29:32] "POST /predict HTTP/1.1" 200 -
+2025-03-15 15:33:52,940 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\src\\gui\\app_ui.py', reloading
+2025-03-15 15:33:53,616 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\joblib\\__init__.py', reloading
+2025-03-15 15:33:53,648 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\IPython\\display.py', reloading
+2025-03-15 15:33:53,700 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\IPython\\core\\display_functions.py', reloading
+2025-03-15 15:33:53,740 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\IPython\\core\\display.py', reloading
+2025-03-15 15:33:53,745 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\IPython\\lib\\display.py', reloading
+2025-03-15 15:33:53,757 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\joblib\\numpy_pickle.py', reloading
+2025-03-15 15:33:53,785 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\joblib\\compressor.py', reloading
+2025-03-15 15:33:53,789 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\joblib\\numpy_pickle_utils.py', reloading
+2025-03-15 15:33:53,793 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\joblib\\numpy_pickle_compat.py', reloading
+2025-03-15 15:33:54,433 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-15 15:33:58,482 - WARNING -  * Debugger is active!
+2025-03-15 15:33:58,493 - INFO -  * Debugger PIN: 127-933-181
+2025-03-15 15:34:07,811 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\streamlit\\__init__.py', reloading
+2025-03-15 15:34:07,956 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\streamlit\\config.py', reloading
+2025-03-15 15:34:08,064 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\streamlit\\delta_generator_singletons.py', reloading
+2025-03-15 15:34:08,110 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\streamlit\\delta_generator.py', reloading
+2025-03-15 15:34:08,347 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\streamlit\\elements\\alert.py', reloading
+2025-03-15 15:34:08,397 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\streamlit\\elements\\widgets\\audio_input.py', reloading
+2025-03-15 15:34:08,812 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-15 15:34:12,528 - WARNING -  * Debugger is active!
+2025-03-15 15:34:12,539 - INFO -  * Debugger PIN: 127-933-181
+2025-03-15 15:34:13,459 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\src\\gui\\app_ui.py', reloading
+2025-03-15 15:34:13,460 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\src\\gui\\app_ui.py', reloading
+2025-03-15 15:34:13,461 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\src\\gui\\app_ui.py', reloading
+2025-03-15 15:34:13,573 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\requests\\__init__.py', reloading
+2025-03-15 15:34:13,601 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\json\\__init__.py', reloading
+2025-03-15 15:34:14,027 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-15 15:34:16,745 - WARNING -  * Debugger is active!
+2025-03-15 15:34:16,756 - INFO -  * Debugger PIN: 127-933-181
+2025-03-15 15:34:36,811 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\streamlit\\env_util.py', reloading
+2025-03-15 15:34:36,825 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\script_runner.py', reloading
+2025-03-15 15:34:36,838 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\venv\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\exec_code.py', reloading
+2025-03-15 15:34:36,853 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\threading.py', reloading
+2025-03-15 15:34:37,513 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-15 15:34:39,585 - WARNING -  * Debugger is active!
+2025-03-15 15:34:39,596 - INFO -  * Debugger PIN: 127-933-181
+2025-03-15 15:36:56,229 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\src\\gui\\app_ui.py', reloading
+2025-03-15 15:36:56,231 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\src\\gui\\app_ui.py', reloading
+2025-03-15 15:36:56,232 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\src\\gui\\app_ui.py', reloading
+2025-03-15 15:36:56,516 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-15 15:36:59,445 - WARNING -  * Debugger is active!
+2025-03-15 15:36:59,455 - INFO -  * Debugger PIN: 127-933-181
+2025-03-15 15:37:00,156 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\src\\gui\\app_ui.py', reloading
+2025-03-15 15:37:00,157 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\src\\gui\\app_ui.py', reloading
+2025-03-15 15:37:00,158 - INFO -  * Detected change in 'C:\\Users\\Anilchoudary R\\Gitrepos\\bank-API-1\\src\\gui\\app_ui.py', reloading
+2025-03-15 15:37:00,904 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-15 15:37:03,445 - WARNING -  * Debugger is active!
+2025-03-15 15:37:03,456 - INFO -  * Debugger PIN: 127-933-181
+2025-03-15 15:37:13,347 - INFO - Prediction successful: 1
+2025-03-15 15:37:13,348 - INFO - 127.0.0.1 - - [15/Mar/2025 15:37:13] "POST /predict HTTP/1.1" 200 -
+2025-03-15 15:37:41,703 - INFO - Prediction successful: 0
+2025-03-15 15:37:41,704 - INFO - 127.0.0.1 - - [15/Mar/2025 15:37:41] "POST /predict HTTP/1.1" 200 -
+2025-03-15 15:50:15,126 - INFO - Serving on http://0.0.0.0:5000
+2025-03-15 15:51:16,776 - INFO - Prediction successful: 1
